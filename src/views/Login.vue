@@ -36,6 +36,7 @@ export default {
   },
   methods: {
   	logar() {
+		this.$store.dispatch("getUsuario", "lucasjesusssilva@gmail.com");
 
   	}
   }

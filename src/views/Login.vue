@@ -36,8 +36,8 @@ export default {
   },
   methods: {
   	logar() {
-		this.$store.dispatch("getUsuario", "lucasjesusssilva@gmail.com");
-
+		this.$store.dispatch("getUsuario", this.login.email);
+		this.$router.push({name: "usuario"});
   	}
   }
 };

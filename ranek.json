@@ -21,6 +21,66 @@
       "numero": "5",
       "estado": "SP",
       "cidade": "Votorantim"
+    },
+    {
+      "id": "lucas_silva.tricolor@hotmail.com",
+      "nome": "Lucas",
+      "email": "lucas_silva.tricolor@hotmail.com",
+      "senha": "979899",
+      "cep": "18112760",
+      "rua": "Rua Venício Duarte",
+      "numero": "91",
+      "bairro": "Jardim São Luís",
+      "cidade": "Votorantim",
+      "estado": "SP"
+    },
+    {
+      "id": "mirtes@mirte.com",
+      "nome": "Mirtes",
+      "email": "mirtes@mirte.com",
+      "senha": "979899",
+      "cep": "06455000",
+      "rua": "Alameda Araguaia",
+      "numero": "2019",
+      "bairro": "Alphaville Industrial",
+      "cidade": "Barueri",
+      "estado": "SP"
+    },
+    {
+      "id": "leo@leo.com",
+      "nome": "Leonardo",
+      "email": "leo@leo.com",
+      "senha": "979899",
+      "cep": "18112760",
+      "rua": "Rua Venício Duarte",
+      "numero": "200",
+      "bairro": "Jardim São Luís",
+      "cidade": "Votorantim",
+      "estado": "SP"
+    },
+    {
+      "id": "luis@luis.com",
+      "nome": "Luis",
+      "email": "luis@luis.com",
+      "senha": "979899",
+      "cep": "06455000",
+      "rua": "Alameda Araguaia",
+      "numero": "2011",
+      "bairro": "Alphaville Industrial",
+      "cidade": "Barueri",
+      "estado": "SP"
+    },
+    {
+      "id": "aline@aline.com",
+      "nome": "Aline Susan",
+      "email": "aline@aline.com",
+      "senha": "979899",
+      "cep": "06454000",
+      "rua": "Alameda Rio Negro",
+      "numero": "1300",
+      "bairro": "Alphaville Centro Industrial e Empresarial/Alphaville.",
+      "cidade": "Barueri",
+      "estado": "SP"
     }
   ],
   "produto": [

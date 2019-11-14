@@ -5,7 +5,7 @@
 			<button v-if="!criar" class="btn criar" @click="criar = true">Criar Conta</button>
 			<UsuarioForm v-else>
 				<button @click.prevent="criarUsuario" class="btn btn-form">Criar Usuário</button>	
-			</UsuarioForm>>
+			</UsuarioForm>
 		</transition>
 	</section>
 </template>

@@ -24,7 +24,7 @@ import TheFooter from "@/components/TheFooter.vue";
 
 <style>
 *{
-	border-sizing:border-box;
+	box-sizing: border-box;
 }
 
 body, ul, li, h1, h2, p{

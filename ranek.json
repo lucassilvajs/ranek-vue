@@ -13,14 +13,15 @@
     },
     {
       "id": "lucasjesusssilva@gmail.com",
+      "nome": "Lucas de Jesus",
       "email": "lucasjesusssilva@gmail.com",
-      "nome": "Lucas Silva",
       "senha": "456",
-      "rua": "Rua Ali Longe",
-      "cep": "18112760",
-      "numero": "5",
-      "estado": "SP",
-      "cidade": "Votorantim"
+      "cep": "06455000",
+      "rua": "Alameda Araguaia",
+      "numero": "2190",
+      "bairro": "Alphaville Industrial",
+      "cidade": "Barueri",
+      "estado": "SP"
     },
     {
       "id": "lucas_silva.tricolor@hotmail.com",
@@ -103,15 +104,6 @@
       "fotos": null
     },
     {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "lucasjesusssilva@gmail.com",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
       "id": "notebook-2",
       "nome": "Notebook",
       "usuario_id": "andre@origamid.com",
@@ -127,15 +119,6 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet-2",
-      "nome": "Tablet",
-      "usuario_id": "lucasjesusssilva@gmail.com",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
       "fotos": null
     },
     {
@@ -157,15 +140,6 @@
       "fotos": null
     },
     {
-      "id": "tablet-3",
-      "nome": "Tablet",
-      "usuario_id": "lucasjesusssilva@gmail.com",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
       "id": "notebook-4",
       "nome": "Notebook",
       "usuario_id": "andre@origamid.com",
@@ -184,13 +158,30 @@
       "fotos": null
     },
     {
-      "id": "tablet-4",
-      "nome": "Tablet",
-      "usuario_id": "lucasjesusssilva@gmail.com",
-      "preco": "1399",
+      "nome": "Iphone X",
+      "preco": "4233",
+      "descricao": "Esse é meu iphone",
+      "fotos": null,
+      "usuario_id": "luis@luis.com",
+      "id": "iZJNgKD"
+    },
+    {
+      "nome": "Mac Book",
+      "preco": "5000",
       "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "descricao": "Meu maczinho",
+      "fotos": null,
+      "usuario_id": "leo@leo.com",
+      "id": "DD-CoIM"
+    },
+    {
+      "nome": "Redmi Airdots",
+      "preco": "99.99",
+      "vendido": "false",
+      "descricao": "Belíssimo fone bluetooth",
+      "fotos": null,
+      "usuario_id": "lucasjesusssilva@gmail.com",
+      "id": "uw778-a"
     }
   ]
 }

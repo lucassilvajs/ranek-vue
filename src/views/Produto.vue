@@ -2,7 +2,7 @@
 	<section>
 		<div v-if="produto" class="produto">
 			<ul class="fotos" v-if="produto.fotos">
-				<li v-for="foto, index in produto.fotos" :key="index">
+				<li v-for="(foto, index) in produto.fotos" :key="index">
 					<img :src="foto.src" :alt="foto.titulo">
 				</li>
 			</ul>
@@ -10,7 +10,10 @@
 				<h1>{{produto.nome}}</h1>
 				<p class="preco">{{produto.preco | numeroPreco}}</p>
 				<p class="descricao">{{produto.descricao}}</p>
-				<button class="btn" v-if="produto.vendido === 'false'">Comprar</button>
+				<transition v-if="produto.vendido === 'false'" mode="out-in">
+					<button class="btn" v-if="!finalizar" @click="finalizar = true">Comprar</button>
+					<FinalizarCompra v-else :produto="produto" />
+				</transition>
 				<button class="btn" disabled v-else>Produto Vendido</button>
 
 			</div>
@@ -21,16 +24,19 @@
 </template>
 
 <script>
-import ProdutosBuscar from "@/components/ProdutosBuscar.vue";
-import ProdutosLista from "@/components/ProdutosLista.vue";
+import FinalizarCompra from "@/components/FinalizarCompra.vue";
 import {api} from "@/services.js";
 
 export default {
   name: 'Produto',
   props: ["id"],
+  components: {
+	  FinalizarCompra
+  },
   data() {
   	return {
-  		produto: null
+		  produto: null,
+		  finalizar: false
   	}
   },
   methods: {

@@ -82,6 +82,18 @@
       "bairro": "Alphaville Centro Industrial e Empresarial/Alphaville.",
       "cidade": "Barueri",
       "estado": "SP"
+    },
+    {
+      "id": "teresa@gmail.com",
+      "nome": "Teresa",
+      "email": "teresa@gmail.com",
+      "senha": "979899",
+      "cep": "06454000",
+      "rua": "Alameda Rio Negro",
+      "numero": "111",
+      "bairro": "Alphaville Centro Industrial e Empresarial/Alphaville.",
+      "cidade": "Barueri",
+      "estado": "SP"
     }
   ],
   "produto": [
@@ -182,6 +194,52 @@
       "fotos": null,
       "usuario_id": "lucasjesusssilva@gmail.com",
       "id": "uw778-a"
+    }
+  ],
+  "transacao": [
+    {
+      "comprador_id": "lucasjesusssilva@gmail.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "06455000",
+        "rua": "Alameda Araguaia",
+        "numero": "2190",
+        "bairro": "Alphaville Industrial",
+        "cidade": "Barueri",
+        "estado": "SP"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "teresa@gmail.com",
+      "vendedor_id": "lucasjesusssilva@gmail.com",
+      "produto": {
+        "id": "smartphones",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "06454000",
+        "rua": "Alameda Rio Negro",
+        "numero": "111",
+        "bairro": "Alphaville Centro Industrial e Empresarial/Alphaville.",
+        "cidade": "Barueri",
+        "estado": "SP"
+      },
+      "id": 2
     }
   ]
 }

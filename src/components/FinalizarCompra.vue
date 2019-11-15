@@ -2,7 +2,7 @@
   <section>
     <h2>Endereço Envio</h2>
     <UsuarioForm>
-      <button class="btn" @click.prevent="finalizarCompra">Finalizar Compra</button>
+      <button class="btn" @click.prevent="finalizar">Finalizar Compra</button>
     </UsuarioForm>
   </section>
 </template>
@@ -37,14 +37,37 @@ export default {
   },
   methods: {
     criarTransacao() {
-      api.post("/transacao", this.compra()).then(() => {
+      return api.post("/transacao", this.compra).then(() => {
         this.$router.push({name: "compras"})
       });
+    },
+    async criarUsuario(){
+      try {
+        await this.$store.dispatch("criarUsuario", this.$store.state.usuario);
+        await this.$store.dispatch("getUsuario", this.$store.state.usuario.email);
+        await this.criarTransacao();
+      } catch (error) {
+        console.error(error)
+      }
+		},
+    finalizar() {
+      if(this.$store.state.login){
+        this.criarTransacao();
+      }else{
+        this.criarUsuario();
+      }
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
+h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
+.btn {
+  background: #e80;
+}
 </style>
